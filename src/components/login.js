@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import biglogo from "../images/big-logo.svg";
 import { ethers } from "ethers";
+
 import { useNavigate } from "react-router-dom";
 
 export default function Login() {
@@ -31,9 +32,9 @@ export default function Login() {
       navigate("/rewards");
     }
   }
-
   return (
     <>
+
       <div className="login-btn">
         <div className="biglogo">
           <img src={biglogo} alt="Logo" />

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/header";
+import RewardsHeader from "../components/rewardsheader";
 import Login from "../components/login";
 import Footer from "../components/footer";
 
@@ -7,7 +7,8 @@ import Footer from "../components/footer";
 export default function LoginPage(){
     return(
         <>
-        <Header/>
+        
+        <RewardsHeader/>
         <Login/>
         <Footer/>
 
